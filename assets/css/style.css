@@ -18,7 +18,11 @@
   --Dark-Electric-Blue: #5e6e85;
   --Pure-White: #fff;
   --Blue: #345ff6;
-  --Gradient-1: linear-gradient(-290deg, #d6e6fe 0%, rgba(214, 252, 254) 100%);
+  --Gradient-1: linear-gradient(
+    -290deg,
+    rgba(214, 252, 254, 0.5) 0%,
+    #d6e6fe 100%
+  );
 }
 main {
   background: url(../images/pattern-curved-line-left.svg) no-repeat 1188px 749px;
@@ -334,6 +338,7 @@ input::-webkit-inner-spin-button {
 .result {
   display: flex;
   gap: 131px;
+  color: var(--Gunmetal);
 }
 .result__img {
   background: url(../images/image-man-eating.webp) no-repeat 0px 0px / 564px
@@ -478,6 +483,7 @@ input::-webkit-inner-spin-button {
 .bmi-limitations {
   display: flex;
   background: url(../images/pattern-curved-line-right.svg) no-repeat 165px 251px;
+  color: var(--Gunmetal);
 }
 .bmi-limitations__text {
   position: absolute;
